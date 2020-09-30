@@ -5,7 +5,7 @@
 Для добавления стилей, используй CSS-классы valid и invalid. */
 
 const validationInputRef = document.getElementById("validation-input");
-validationInputRef.addEventListener("focus", onValidationLengthRemove);
+validationInputRef.addEventListener("focus", onValidationLengthAdd);
 validationInputRef.addEventListener("blur", onValidationLengthAdd);
 
 function onValidationLengthRemove() {
