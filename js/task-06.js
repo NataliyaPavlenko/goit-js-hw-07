@@ -15,4 +15,4 @@ function validationInput() {
   }
 }
 
-input.addEventListener("blur", validationInput);
+validationInputRef.addEventListener("blur", validationInput);
