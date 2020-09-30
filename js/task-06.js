@@ -6,7 +6,7 @@
 
 const input = document.querySelector("#validation-input");
 
-function onValidationLengthAdd() {
+function validationInput() {
   if (validationInputRef.value.length === +validationInputRef.dataset.length) {
     validationInputRef.classList.remove("invalid");
     validationInputRef.classList.add("valid");
